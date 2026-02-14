@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💖 Valentine for Janela 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Landing -->
+  <div id="landing">
+    <h1 class="slide-in">💖 Happy Valentine’s, Janela! 💖</h1>
+    <button id="openBtn" class="bounce">Open 💌</button>
+  </div>
+
+  <!-- Question -->
+  <div id="questionSection" style="display:none;">
+    <h2 class="slide-in">Hi Janela! 🥰</h2>
+    <p>Kailan tayo magkikita? (2026 lang)</p>
+    <input type="date" id="answerInput" min="2026-01-01" max="2026-12-31" />
+    <button id="submitAnswer" class="bounce">Submit</button>
+  </div>
+
+  <!-- Message + Slideshow + Appreciation -->
+  <div id="messageSection" style="display:none;">
+    <h2 class="slide-in">💌 Message for You 💌</h2>
+    <p id="personalMessage"></p>
+    <div id="slideshow">
+      <img id="slideImg" src="" alt="Janela Pic" />
+    </div>
+    <div id="appreciation">
+      <h3>💖 Special Appreciation 💖</h3>
+      <p>Janela, salamat sa pagiging mabait, sweet, at laging masaya kasama ka. Happy Valentine’s Day! 🥰</p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
